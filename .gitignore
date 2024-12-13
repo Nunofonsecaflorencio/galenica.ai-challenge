@@ -1,0 +1,25 @@
+# Ignore Python bytecode and cache directories
+**/__pycache__/
+*.py[cod]
+
+# Ignore environment folders
+env/
+*.env
+
+# Ignore temporary files and backups
+*.log
+*.bak
+*.swp
+*.tmp
+*.DS_Store
+
+# Ignore input and output directories for batch processing
+batch-process-images/input/
+batch-process-images/output/
+
+# Ignore system-specific files
+Thumbs.db
+desktop.ini
+
+# Ignore virtual environment files
+env/
